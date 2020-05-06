@@ -20,7 +20,6 @@ db_drop_and_create_all()
 
 ## ROUTES
 '''
-@TODO implement endpoint
     GET /drinks
         it should be a public endpoint
         it should contain only the drink.short() data representation
@@ -36,7 +35,6 @@ def get_drinks():
 
 
 '''
-@TODO implement endpoint
     GET /drinks-detail
         it should require the 'get:drinks-detail' permission
         it should contain the drink.long() data representation
@@ -53,7 +51,6 @@ def get_drinks_detail(jwt):
 
 
 '''
-@TODO implement endpoint
     POST /drinks
         it should create a new row in the drinks table
         it should require the 'post:drinks' permission
@@ -81,7 +78,6 @@ def post_drinks(jwt):
                     "drinks": [new_drink.long()]})
 
 '''
-@TODO implement endpoint
     PATCH /drinks/<id>
         where <id> is the existing model id
         it should respond with a 404 error if <id> is not found
@@ -119,7 +115,6 @@ def update_drinks(jwt, id):
                     "drinks": [existing_drink.long()]})
 
 '''
-@TODO implement endpoint
     DELETE /drinks/<id>
         where <id> is the existing model id
         it should respond with a 404 error if <id> is not found

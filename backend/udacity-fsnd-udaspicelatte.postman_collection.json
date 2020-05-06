@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "9c6ecf44-c39e-40dd-adab-a96c6281e3b9",
+		"_postman_id": "306bc594-89ff-4ca1-995d-519383e5e6b7",
 		"name": "udacity-fsnd-udaspicelatte",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -14,7 +14,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4b978f60-f3b3-4ecb-b9b2-99ec41dbb5eb",
+								"id": "cdd1b378-7529-41c6-ba9a-851789b2ef7c",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -50,7 +50,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "156f23bd-f65f-4950-93ca-13d14779a9a9",
+								"id": "8a81f241-88cf-4e67-b44e-5cca7266075f",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -81,7 +81,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "33560454-619a-4358-81a0-599ad93c289c",
+								"id": "5f3a041f-50ea-4bf4-944b-46b11ca13c37",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -112,7 +112,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1c5ec365-659f-4925-88da-b47ccec21ebf",
+								"id": "cc7eae44-84c9-4217-a1e2-7d52dda1207d",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -144,7 +144,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "732e74b6-efab-426f-98fa-561319c29ffa",
+								"id": "74495269-0c99-4dc5-99b8-0a503753489c",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -182,7 +182,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "8326fc12-e047-4e83-8a9b-a34110e300bb",
+								"id": "cd3eb3c0-970f-4fa4-9a78-20116b71ee2f",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -218,7 +218,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "934031b5-b70e-4d14-b844-d7c1101b752c",
+								"id": "18a360dc-7a50-4931-90d5-a1f7d892f363",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -249,7 +249,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "3b55e566-6061-483a-9999-0b7ccd0639a6",
+								"id": "b4855da4-8b6c-49af-aab2-ff71d2712d93",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -260,16 +260,6 @@
 						}
 					],
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik4wTkNOVEEzTWpaQ1FUa3lRMEl6TmtORk0wWXhRVFUwT1RFMFFVVkNSRUpDT1RBME1EUXpOUSJ9.eyJpc3MiOiJodHRwczovL3VkYWNpdHktZnNuZC5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDY3MTQ4MTQ0MTcwNjk3MTI4OTMiLCJhdWQiOlsiZGV2IiwiaHR0cHM6Ly91ZGFjaXR5LWZzbmQuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTU2MDg5MDE2MCwiZXhwIjoxNTYwODk3MzYwLCJhenAiOiJPSjVwQk9ZSURFa09FVFVmUWo1ajdsSDZFTFcwMkd1MCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.j9ocW47_exQOkEa10ffh8eijGvrIMxnGRzCmbrXnfaN_8ULsgA7AnWYMtvP8RmPWvT9n8sReWnFuJajUHBUbnBO2GuJ4aM3-WDUBeJT0X_mpGUWs4lxaNTbIkWdiWPTsEiRnP3wT-dU_v3Olw2PB4UMajMIjSH-IdF2Y1CiJIOaM0gV44RGZRyRvj6C2_mOkMfoXxzw-HrVvTRCo1NcUPea5Bs04POni7azx-B7FstP_HLm0dEbbge4XbmovHwlIXknIoI8PbuGXeLBqE2hv8fErKFBuIykxzK0nErH5zSPCrkM-_9smb8TLGAH-E5j1KQb6SHDKtcV_QHnsUYFuXA",
-									"type": "string"
-								}
-							]
-						},
 						"method": "POST",
 						"header": [],
 						"url": {
@@ -290,7 +280,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "647bbbc8-d609-4b96-b6aa-356447ab4f69",
+								"id": "8ad6ff67-2d6d-48eb-a28a-373b6611a28c",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -322,7 +312,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "6d881d37-0bb3-4fd3-9117-a21977e54690",
+								"id": "a0743bcf-0a66-46ef-bbf0-53e1eef783b4",
 								"exec": [
 									"pm.test(\"Status code is 401\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -354,7 +344,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik4wTkNOVEEzTWpaQ1FUa3lRMEl6TmtORk0wWXhRVFUwT1RFMFFVVkNSRUpDT1RBME1EUXpOUSJ9.eyJpc3MiOiJodHRwczovL3VkYWNpdHktZnNuZC5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDY3MTQ4MTQ0MTcwNjk3MTI4OTMiLCJhdWQiOlsiZGV2IiwiaHR0cHM6Ly91ZGFjaXR5LWZzbmQuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTU2MDg5MDE2MCwiZXhwIjoxNTYwODk3MzYwLCJhenAiOiJPSjVwQk9ZSURFa09FVFVmUWo1ajdsSDZFTFcwMkd1MCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiXX0.j9ocW47_exQOkEa10ffh8eijGvrIMxnGRzCmbrXnfaN_8ULsgA7AnWYMtvP8RmPWvT9n8sReWnFuJajUHBUbnBO2GuJ4aM3-WDUBeJT0X_mpGUWs4lxaNTbIkWdiWPTsEiRnP3wT-dU_v3Olw2PB4UMajMIjSH-IdF2Y1CiJIOaM0gV44RGZRyRvj6C2_mOkMfoXxzw-HrVvTRCo1NcUPea5Bs04POni7azx-B7FstP_HLm0dEbbge4XbmovHwlIXknIoI8PbuGXeLBqE2hv8fErKFBuIykxzK0nErH5zSPCrkM-_9smb8TLGAH-E5j1KQb6SHDKtcV_QHnsUYFuXA",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImNzR2xDMFB3VnIzaGNGV1AyWGE3aCJ9.eyJpc3MiOiJodHRwczovL21xcDIyNTkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlYjFlY2Y0MWNjMWFjMGMxNDg5NjgxYiIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE1ODg3MzM5NDEsImV4cCI6MTU4ODgyMDM0MSwiYXpwIjoic2NzWVlaSjdKNjFUeFc4aThWZWlObmVaa2QxYll1SFgiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MtZGV0YWlsIl19.PQoE5ZNcKNp9FMO4-JQgGL00nR7QmpwFd33ahkne2JQACOKO-y17mA4wZlmHoxqMP-WODQ3FVVTYg5Lb2PbNpX4xnElK73_gFi7nAhvzghV2Fab9wNPnU0RdXRtE7kzcfRU-pDYeSs69-bwz2Jf-xCYFU8NyOGuUbZ7MvEfdUsIuMX1BFTDGL2L8zIKPO4Al2wb3yxnnbh2ZMk7IOJC-r-16vqy71ZBu7JjrTq158cNjBWJLgtnUYUsbitNOPbqsQE9ooHz_Ais8KHqytD4wiiTRDKmxJDeIM1VRbPhHF8s6i_sJXEfo5_mti0IExH1yDv-te6b2nnWJ0uLTdLPCPw",
 						"type": "string"
 					}
 				]
@@ -363,7 +353,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "cbb74e3b-9b3e-43b8-9e1f-60afb80c2bfe",
+						"id": "bba08750-cb33-4baf-bed8-a219c5d8a20c",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -373,7 +363,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "4952882f-9ab3-4139-9dc3-22ef37cd4d33",
+						"id": "1b8e9dd3-5aad-420a-bb3d-b535e126fc16",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -392,7 +382,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "863770cd-9916-4630-92a4-cce0333b31fa",
+								"id": "5dde5507-b519-475c-8ce0-37c667ffa259",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -428,7 +418,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1ab49ddd-7f7e-4c59-a942-374c72bc6e78",
+								"id": "befb8ffe-3a1d-4302-b408-41fcc37509b1",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -464,7 +454,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "842bfab0-152a-490d-b15d-5c7a6eeb00ab",
+								"id": "e66baeec-dff0-4352-a978-83dd9993e70a",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -475,6 +465,16 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImNzR2xDMFB3VnIzaGNGV1AyWGE3aCJ9.eyJpc3MiOiJodHRwczovL21xcDIyNTkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlYWY4Mzc1NTRiMTRjMGMxMjczMzhjYyIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE1ODg3MzU2NjgsImV4cCI6MTU4ODgyMjA2OCwiYXpwIjoic2NzWVlaSjdKNjFUeFc4aThWZWlObmVaa2QxYll1SFgiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCIsInBhdGNoOmRyaW5rcyIsInBvc3Q6ZHJpbmtzIl19.PzWm3HUvxOTthHYYacv3LaiRi6XIUn9O6_Jx0B-_1Dhnl4VOj3iTX7Z3VEZm7QUtDKcli58vPQnGHEuT04GrtK1bLPbG04XOki-4UJbNfHD3XMtllAoe209DJoEtQzjJ5Yg8vhG0rmXk901r3EJGTjFeqg-cKBkxsM3MdGACyjxv-nJVzOMCIe9pDtF8Fi9JMb4ZmxRRUQFfyxwpHFC_ja4gxkROsWIPrfp3X7LhWCM5zTr4rIbIDeUrJQZhmGNkE0AK3ccLCPx0A0V5mcdkju6kjEUwXisZR5e-ERBxvR_SvuSPAZWhQr0VuCEgzJ4JfgxFv0RYMzyiwMYUa-TSpQ",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -506,7 +506,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f7f88667-bc49-4126-bdf2-274c979ffb25",
+								"id": "7146169c-3a0b-465f-8f9c-8eaeb5df137b",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -554,7 +554,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "7349bb9d-81ce-4943-9b35-0567fb3a9bd2",
+								"id": "5ee9b64b-b8c0-4b1f-99e5-a59be6ae0d37",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -586,7 +586,7 @@
 				"bearer": [
 					{
 						"key": "token",
-						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik4wTkNOVEEzTWpaQ1FUa3lRMEl6TmtORk0wWXhRVFUwT1RFMFFVVkNSRUpDT1RBME1EUXpOUSJ9.eyJpc3MiOiJodHRwczovL3VkYWNpdHktZnNuZC5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMDY3MTQ4MTQ0MTcwNjk3MTI4OTMiLCJhdWQiOlsiZGV2IiwiaHR0cHM6Ly91ZGFjaXR5LWZzbmQuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTU2MDg4OTU5NiwiZXhwIjoxNTYwODk2Nzk2LCJhenAiOiJPSjVwQk9ZSURFa09FVFVmUWo1ajdsSDZFTFcwMkd1MCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcyIsImdldDpkcmlua3MtZGV0YWlsIiwicGF0Y2g6ZHJpbmtzIiwicG9zdDpkcmlua3MiXX0.Qk-5FC2X_RUkK00WKARYCKw_877XFuaT5ND3f3ObD9Ly1e1GMfJXhi3McV12binGGCw6x241erIjGB0t8WbWdU3bYpIVD1klZ64DVLQ8Q2LQ2NzB3eFEOgGLL85az1jIDbRiuATIRbbBOWILPJ6h6KR9L5hExklf2zuj3Bnwm7zMRmVpIJmjrUt4bWjtTOguOwJ0IVQsk4PDjGxzwfrUWFCFNDqN_u15JNLxeH21C-QvCpHs3D4Aodeh1qFUuWHfK_Gyfu91AitXPTVZRX9eZbUOVkGT3JMn4sKn9oGaKFTx2E-Y4DmoECG0uWImbX_wiRjx4aTeo7Q7hKSReMToPA",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImNzR2xDMFB3VnIzaGNGV1AyWGE3aCJ9.eyJpc3MiOiJodHRwczovL21xcDIyNTkuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDVlYWY4Mzc1NTRiMTRjMGMxMjczMzhjYyIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE1ODg3MzU2NjgsImV4cCI6MTU4ODgyMjA2OCwiYXpwIjoic2NzWVlaSjdKNjFUeFc4aThWZWlObmVaa2QxYll1SFgiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCIsInBhdGNoOmRyaW5rcyIsInBvc3Q6ZHJpbmtzIl19.PzWm3HUvxOTthHYYacv3LaiRi6XIUn9O6_Jx0B-_1Dhnl4VOj3iTX7Z3VEZm7QUtDKcli58vPQnGHEuT04GrtK1bLPbG04XOki-4UJbNfHD3XMtllAoe209DJoEtQzjJ5Yg8vhG0rmXk901r3EJGTjFeqg-cKBkxsM3MdGACyjxv-nJVzOMCIe9pDtF8Fi9JMb4ZmxRRUQFfyxwpHFC_ja4gxkROsWIPrfp3X7LhWCM5zTr4rIbIDeUrJQZhmGNkE0AK3ccLCPx0A0V5mcdkju6kjEUwXisZR5e-ERBxvR_SvuSPAZWhQr0VuCEgzJ4JfgxFv0RYMzyiwMYUa-TSpQ",
 						"type": "string"
 					}
 				]
@@ -595,7 +595,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "f313be37-db9e-4232-acff-c59d6a082d8b",
+						"id": "a2bf82d0-7d23-47e8-89ed-05765bcc2246",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -605,7 +605,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "2de73005-c6ca-4c62-a350-aeaf506f7dad",
+						"id": "781b6022-38bd-40a2-8d36-4c97a182da55",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -620,7 +620,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "cdae8554-b7fe-46ce-8477-1d7d6b2ab288",
+				"id": "4297f6ef-554e-4eda-9f06-c1fd3e155a11",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -630,7 +630,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e4433a87-aa87-4149-9bc6-8ac0fbba8b71",
+				"id": "e7fc20be-72f2-4c3c-9d2f-75562af1892b",
 				"type": "text/javascript",
 				"exec": [
 					""
