@@ -1,0 +1,55 @@
+{
+	"id": "3bd545a6-268f-4241-a601-25b253eb0482",
+	"name": "udacity-fsnd-udaspicelatte",
+	"timestamp": "2020-05-06T03:16:32.303Z",
+	"collection_id": "9c6ecf44-c39e-40dd-adab-a96c6281e3b9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "09176dcb-9682-482e-b25e-e6e7362d926c",
+			"name": "/drinks-detail",
+			"url": "localhost:5000/drinks-detail",
+			"time": 702,
+			"responseCode": {
+				"code": 400,
+				"name": "BAD REQUEST"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"value contains drinks array": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"value contains drinks array": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				702
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"value contains drinks array": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 702,
+	"collection": {
+		"requests": [
+			{
+				"id": "09176dcb-9682-482e-b25e-e6e7362d926c",
+				"method": "GET"
+			}
+		]
+	}
+}
